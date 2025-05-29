@@ -34,7 +34,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN_1 }}
         run: |
           $HOME/sonar-scanner/bin/sonar-scanner \
-            -Dsonar.projectKey=asifmostafa18_python-demo \
+            -Dsonar.projectKey=asifmostafa18_sonarqube-python-demo \
             -Dsonar.sources=. \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.organization=asifmostafa18 \
